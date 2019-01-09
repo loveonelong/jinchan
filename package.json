@@ -1,0 +1,29 @@
+{
+  "name": "jinchan",
+  "version": "0.0.1",
+  "description": "jinchan quant",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node demo/index.ts",
+    "build": "tsc index.ts",
+    "test": "echo \"no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveonelong/jinchan.git"
+  },
+  "keywords": [
+    "quant"
+  ],
+  "author": "onelong",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/loveonelong/jinchan/issues"
+  },
+  "homepage": "https://github.com/loveonelong/jinchan#readme",
+  "dependencies": {
+    "tslint": "^5.12.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.2"
+  }
+}
